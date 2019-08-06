@@ -2,7 +2,7 @@
     font-family: 微軟正黑體;
     font-weight: bold;
     color:white;
-    border:0.5px solid rgba(0,0,0,0);
+    border:0.5px solid rgba(0,0,0,0.5);
     box-sizing: border-box;
     margin:0;
     padding:0;
@@ -10,28 +10,31 @@
 body{
     background-color: bisque;
 }
+
 #box{
     width: 50%;
     height: 500px;
     background-image: url(https://images.unsplash.com/photo-1527061011665-3652c757a4d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80);
     background-size: 350px 500px;
     background-repeat: no-repeat;
-    display: inline-block;
-    background-position: right;
-    margin-top:100px;   
+    /* display: inline-block; */
+    background-position: right;  
+    margin-top: 150px;   
+    float: left;
 }
 #content{
     width: 350px;
     height: 500px;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 200px 20px;
     vertical-align: top;
     background-color: rgb(250, 110, 164);
     font-size: 20px;
-    margin:100px auto 0 auto;
     text-align: center;
     line-height: 50px;
-    letter-spacing:5px;
+    letter-spacing: 5px;
+    margin-top: 150px;
+    float: left;
 }
 footer{
     background-color: rgb(250, 110, 164);
